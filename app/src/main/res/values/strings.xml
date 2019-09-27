@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="titulo_tarea">Titulo Tarea</string>
+    <string name="descripcion_tarea">Descripción Tarea</string>
+    <string name="agregar_tarea">Agregar Tarea</string>
+    <string name="editar_tarea">Editar Tarea</string>
+    <string name="mostrar_tarea">Mostrar Tarea</string>
+    <string name="menu_borrar">Borrar</string>
+    <string name="menu_editar">Editar</string>
+
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
+    <string name="alert_no_auth">Hola! Bienvenido a To Do List</string>
+    <string name="alert_no_tareas">Sin Tareas</string>
+    <string name="btn_cerrar_sesion">Cerrar Sesión</string>
+</resources>

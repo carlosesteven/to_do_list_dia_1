@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="csc.app.todolist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
+        <activity android:name=".interfaz.activity.ListaTareas">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".interfaz.activity.AgregarTarea"
+            android:label="@string/agregar_tarea" />
+        <activity
+            android:name=".interfaz.activity.EditarTarea"
+            android:label="@string/editar_tarea" />
+        <activity
+            android:name=".interfaz.activity.MostrarTarea"
+            android:label="@string/mostrar_tarea" />
+        <activity
+            android:theme="@style/AppTheme.Transparent"
+            android:name=".interfaz.activity.Autenticacion"
+            />
+    </application>
+
+</manifest>
